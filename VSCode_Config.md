@@ -116,4 +116,4 @@ To configure our VSCode environment we need to overwrite the VSCode settings.jso
   ![settings_json_file](images/installer_code_10.png)
 
 - The configuration file can be empty or with an old default configuration. Then we need to copy the following file to get a better experience for the class:
-  - [VSCode Settings JSON File](settings.json)
+  - [VSCode Settings JSON File](src/settings.json)
