@@ -1,6 +1,6 @@
-# Install Python 3.10
+# Install Python 3.12
 
-## Installing Python 3.10 on Windows
+## Installing Python 3.12 on Windows
 
 Installing Python on Windows is a simple and easy to follow process.
 
@@ -12,7 +12,7 @@ Installing Python on Windows is a simple and easy to follow process.
 
   ![image-20220304114354097](images/installer_py_2.png)
 
-  - Check the **Add Python 3.10 to PATH** to use Python on the CMD an Windows PowerShell.
+  - Check the **Add Python 3.12 to PATH** to use Python on the CMD an Windows PowerShell.
   - Select **Customize installation** and be sure the *pip* option is checked. *pip* will help us to install libraries for Python.
 
   ![installer_py_3](images/installer_py_3.png)
@@ -32,7 +32,7 @@ Installing Python on Windows is a simple and easy to follow process.
 
   ![image-20220304122257675](images/installer_py_6.png)
 
-  - Open Python 3.10 (64-bit)
+  - Open Python 3.12 (64-bit)
 
   ![image-20220304123519807](images/installer_py_7.png)
 
@@ -42,7 +42,7 @@ Installing Python on Windows is a simple and easy to follow process.
 
   - Once open type ```python```  this should display information on the python version and a prompt similar to the previous console.![image-20220304124040125](images/installer_py_9.png)
 
-## Installing Python 3.10 on Mac
+## Installing Python 3.12 on Mac
 
 Installing Python on Windows is a simple and easy to follow process.
 
@@ -61,16 +61,18 @@ Installing Python on Windows is a simple and easy to follow process.
 
 ![image-20220304130003030](images/installer_py_15.png)
 
+- Test if Python is correctly installed.
+  - Open the terminal and type python3.12
+  
+```
+python3.12 
+```
+
 ![image-20220304130020279](images/installer_py_16.png)
 
-- Test if Python is correctly installed.
-  - Open the terminal and type python3.10
+## Installing Python 3.12 on Ubuntu with Apt
 
-![image-20220304130346377](images/installer_py_17.png)
-
-## Installing Python 3.10 on Ubuntu with Apt
-
-Installing Python 3.9 on Ubuntu with apt is a relatively straightforward process and takes only a few minutes to complete.
+Installing Python 3.12 on Ubuntu with apt is a relatively straightforward process and takes only a few minutes to complete.
 
 Update the packages list and install the prerequisites:
 
@@ -85,19 +87,19 @@ Add the deadsnakes PPA to your system’s sources list:
 sudo add-apt-repository ppa:deadsnakes/ppa
 ```
 
-When prompted, press `[Enter]` to continue.
+When prompted, press `[enter/return]` to continue.
 
-Once the repository is enabled, you can install Python 3.9 by executing:
+Once the repository is enabled, you can install Python 3.12 by executing:
 
 ```
-sudo apt install python3.10
+sudo apt install python3.12
 ```
 
 Verify that the installation was successful by typing:
 
 ```
-python3.10 --version
-Python 3.10.0
+python3.12 --version
+Python 3.12.1
 ```
 
-That’s it. Python 3.9 is installed on your Ubuntu, and you can start using it.
+That’s it. Python 3.12 is installed on your Ubuntu, and you can start using it.

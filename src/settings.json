@@ -1,48 +1,10 @@
 {
-  "editor.wordWrap": "on",
-  "editor.trimAutoWhitespace": false,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.minimap.enabled": true,
-  "editor.formatOnSave": true,
-  "editor.cursorBlinking": "expand",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "git.ignoreWindowsGit27Warning": true,
-  "git.confirmSync": false,
-  "files.autoSave": "onFocusChange",
-  "files.associations": {
-    "*.py": "python"
-  },
-  "window.menuBarVisibility": "visible",
-  "window.titleBarStyle": "custom",
-  "window.openFoldersInNewWindow": "on",
-  "markdown-preview-github-styles.colorTheme": "light",
   "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
   "workbench.colorTheme": "Gruvbox Dark Hard",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#333333",
-    "statusBar.noFolderBackground": "#333333",
-    "statusBar.debuggingBackground": "#263238"
-  },
-  "python.linting.pylintEnabled": true,
-  "python.linting.enabled": false,
-  "python.defaultInterpreterPath": "/bin/python3.9",
-  "python.experiments.enabled": false,
-  "python.formatting.provider": "autopep8",
-  "python.formatting.autopep8Args": [
-    "--ignore",
-    "E402",
-    "--max-line-length=79"
-  ],
-  "extensions.ignoreRecommendations": true,
-  "tabnine.experimentalAutoImports": false,
-  "todohighlight.isEnable": true,
-  "terminal.integrated.inheritEnv": false,
-  "terminal.integrated.cursorStyle": "line",
-  "security.workspace.trust.untrustedFiles": "open",
-  "json.maxItemsComputed": 500000
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "side",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false
 }

@@ -1,5 +1,29 @@
 # VSCode Python Development Configuration
 
+## Quick Configuration
+- If you want to use this recommended environment configuration follow next steps.
+
+- Open VS Code and click on Manage icon down left in the editor (⚙️ Gear Icon):
+  - ![installer_code_13](images/installer_code_13.png)
+
+- Select option `Select File`:
+  - ![installer_code_13](images/installer_code_14.png)
+
+- Select file stored in this GitHub repository [`VSCodePython.code-profile`](src/VSCodePython.code-profile):
+  - ![installer_code_13](images/installer_code_15.png)
+
+- Click on `Create Profile`:
+  - ![installer_code_13](images/installer_code_16.png)
+
+- Set a name for your new profile and click on `Create`:
+  - ![installer_code_13](images/installer_code_17.png)
+
+- Maybe VSCode needs to be reloaded. 
+- Now you can use your VSCode for Python development 🐍.
+
+---
+### Next sections expands on detail what we are doing.
+---
 ## VSCode Extensions
 
 - To install these extensions open VSCode and click on the ***VS Marketplace Link***.
@@ -33,38 +57,16 @@
 - **Publisher**: Microsoft
 - **VS Marketplace Link**: [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
-<img src="https://davidanson.gallerycdn.vsassets.io/extensions/davidanson/vscode-markdownlint/0.46.0/1643599038499/Microsoft.VisualStudio.Services.Icons.Default" alt="img" width="150" height="150"  />
+<img src="https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/autopep8/2023.9.13201008/1700129441686/Microsoft.VisualStudio.Services.Icons.Default" alt="img" width="150" height="150" />
 
-### Markdownlint
+### autopep8
 
-- **Name**: markdownlint
-- **Id**: DavidAnson.vscode-markdownlint
-- **Description**: Markdown linting and style checking for Visual Studio Code
-- **Version**: 0.46.0 or Current
-- **Publisher**: David Anson
-- **VS Marketplace Link**: [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-
-<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/1.0.1/1642545629948/Microsoft.VisualStudio.Services.Icons.Default" alt="img" swidth="150" height="150"  />
-
-### Markdown Preview Github Styling
-
-- **Name**: Markdown Preview Github Styling
-- **Id**: bierner.markdown-preview-github-styles
-- **Description**: Changes VS Code's built-in markdown preview to match Github's style
-- **Version**: 1.0.1 or Current
-- **Publisher**: Matt Bierner
-- **VS Marketplace Link**: [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
-
-<img src="https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode/3.5.26/1645465964487/Microsoft.VisualStudio.Services.Icons.Default" alt="img" width="150" height="150"  />
-
-### Tabnine AI
-
-- **Name**: Tabnine AI Autocomplete for JavaScript, Python, Typescript, PHP, Go, Java, Ruby & more
-- **Id**: Heartburning-vscode
-- **Description**: JavaScript, Python, Java, Typescript & all other languages - AI Code completion plugin. Tabnine makes developers more productive by auto-completing their code.
-- **Version**: 3.5.26 or Current
-- **Publisher**: TabNine
-- **VS Marketplace Link**: [Tabnine AI](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
+- **Name**: autopep8
+- **Id**: ms-python.autopep8
+- **Description**: Formatting support for Python files using the autopep8 formatter.
+- **Version**: 2023.8.0 or Current
+- **Publisher**: Microsoft
+- **VS** Marketplace Link: [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)
 
 ## Themes I'm using in VSCode
 
@@ -92,7 +94,7 @@
 
 ## VSCode Settings
 
-To configure our VSCode environment we need to overwrite the VSCode settings.json file.
+Also we can configure our VSCode environment by overwriting the VSCode settings.json file.
 
 - Open VSCode:
 

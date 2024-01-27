@@ -5,7 +5,7 @@ This is a simple guide to setting up your VSCode for Python development for begi
 ## Follow the next steps
 
 - Install Python on your system
-  - [Python Install Guide](Installing_Python_3_10.md)
+  - [Python Install Guide](Installing_Python_3_12.md)
 
 - Install VSCode
   - [VSCode Install Guide](Installing_VSCode.md)
